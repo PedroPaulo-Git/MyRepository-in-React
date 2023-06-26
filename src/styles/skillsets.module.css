@@ -1,0 +1,45 @@
+.skillall{
+    margin-left: 100px;
+    display: block;
+    padding: 20px;
+    margin-top: 5%;
+    
+}
+h3{
+    color: white;
+    margin-bottom: 5px;
+}
+h1.h1skill{
+    color: rgb(0, 238, 255);
+    margin: 0;
+}
+.containerskill{
+text-align: center;
+display: block;
+padding-bottom: 0px;
+padding: 8%;
+background-color: rgb(0, 116, 124);
+height: 190px;
+
+}
+.maincontainerskill{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,220px);
+    gap: 20px;
+}
+
+h5{
+    margin-block:5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+}
+.pskill{
+    margin-bottom: 0;
+    font-size: 12px;
+    color: white;
+}
+.imgskill{
+    width: 50px;
+}
