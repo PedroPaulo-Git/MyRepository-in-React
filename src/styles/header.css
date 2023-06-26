@@ -1,9 +1,10 @@
 
 body{
-    font-family: sans-serif;
+    
     background-color: rgb(0, 43, 56);
 }
 .header{
+    
     position:absolute;
     top: 0;
     width:100%;
@@ -31,12 +32,14 @@ main{
     transform: translateY(-5px);
 }
 h1.logoname{
+    font-family: sans-serif;
     margin-top: 28px;
     font-weight: 400;
     font-size: 27px;
     color: rgb(255, 255, 255);
 }
 h1.logoname1{
+    font-family: sans-serif;
     margin-top: 28px;
     font-weight:400;
     font-size: 27px;

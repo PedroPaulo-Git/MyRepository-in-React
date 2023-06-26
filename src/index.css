@@ -1,4 +1,9 @@
+@font-face{
+  font-family: "Raleway";
+  src: url(font/Raleway-VariableFont_wght.ttf)
+}
 body {
+  
   margin: 0;
   
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

@@ -10,7 +10,7 @@ import { NavLink } from "react-router-dom";
 const Header: React.FC = () => {
   return (
     
-    <div className="App">
+    <div className="Header">
       
       <header className="header">
         <main>
