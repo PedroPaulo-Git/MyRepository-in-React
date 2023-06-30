@@ -16,6 +16,7 @@ body{
    
 }
 main{
+    padding: 0px !important;
     margin-left: 100px;
     display: flex;
     justify-content: space-between;

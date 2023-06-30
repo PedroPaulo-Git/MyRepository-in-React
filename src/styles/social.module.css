@@ -1,0 +1,13 @@
+.social{
+    justify-content:flex-start;
+    margin-left: 0;
+    margin-top: 50px;
+}
+.imgsocial{
+    display: flex;
+    padding-inline:5px ;
+    padding-block: 5px;
+    width: 30px;
+    border-top: 2px solid rgb(0, 238, 255);
+    border-bottom: 2px solid rgb(0, 238, 255);
+}
