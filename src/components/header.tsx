@@ -13,7 +13,7 @@ const Header: React.FC = () => {
     <div className="Header">
       
       <header className="header">
-        <main>
+        <main className='mainheader'>
           <img src={Logo} alt="Logo" className='logo'/>
           <h1 className='logoname1'>Port</h1>
           <h1 className='logoname'>Pedro</h1>

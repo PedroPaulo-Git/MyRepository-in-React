@@ -1,8 +1,9 @@
 .skillall{
-    margin-left: 100px;
+    
     display: block;
     padding: 20px;
-    margin-top: 5%;
+    margin-top: 8%;
+    margin-bottom: 5%;
     
     
 }
@@ -46,7 +47,7 @@ background-color: rgb(0, 116, 124);
     
     margin-top: 5%;
     display: grid;
-    grid-template-columns: repeat(3,245px);
+    grid-template-columns: repeat(5,210px);
     column-gap: 30px;
     row-gap: 20px;
 }

@@ -15,9 +15,12 @@ body{
     display: flex;
    
 }
+.mainheader{
+    margin-left: 80px;
+}
 main{
     padding: 0px !important;
-    margin-left: 100px;
+    margin-left: 130px;
     display: flex;
     justify-content: space-between;
    

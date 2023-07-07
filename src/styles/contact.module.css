@@ -1,10 +1,20 @@
 .containerContact{
-    padding: 20px;
-    display: flex;
+    width: 750px;
     flex-direction: column;
-    margin-bottom: 500px;
-    margin-top: 80px;
+    padding: 20px;
+    position: absolute;
+    display: flex;
+    top: 50%;
+    flex-wrap: wrap;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    text-align: center;
+    margin: 0;
+
+
 }
+
 .h1contact{
     font-size: 35px;
     color:rgb(0, 238, 255);
@@ -36,16 +46,15 @@
     color:black;
     outline: none;
     font-weight: 600;
-    transition: margin-bottom 0.5s;
+
     margin-bottom: 30px;
 }
 .buttoncontact{
-    margin-bottom: 500px;
     font-weight: 800;
     color: rgb(0, 36, 37);
     border: none;
     background-color:rgb(0, 238, 255);
-    width: 51.8%;
+    width: 53%;
     height: 40px;
     text-align: center;
     justify-content: center;
@@ -55,4 +64,13 @@
     transform: scale(1.02);
     transition: transform 0.4s ease-in-out;
     
+}
+.spann{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-bottom: 5px;
+    margin: 10px;
+    font-weight: 650;
+    color: white;
 }

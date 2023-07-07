@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import styles from '../styles/skillsets.module.css';
 import Img1 from '../imgs/iconcss.png';
 import Img2 from '../imgs/iconfrontend.png';
@@ -13,15 +14,19 @@ import Imgts from '../imgs/iconts.png';
 
 
 
+
 function Skillsets(){
     return (
+        
+        
+        
     <div>
         <main className={styles.skillall}>
         <h3>Competências</h3>
         <h1 className={styles.h1skill}>Skill-Sets</h1>
         <span className={styles.skillset_style}></span>
 
-<div className={styles.maincontainerskill}>
+<div className={styles.maincontainerskill} >
 
         <div className={styles.containerskill}>
                     <img src={Img1} alt=""className={styles.imgskill}></img>
