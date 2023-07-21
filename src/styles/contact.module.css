@@ -2,16 +2,13 @@
     width: 750px;
     flex-direction: column;
     padding: 20px;
-    position: absolute;
     display: flex;
-    top: 50%;
     flex-wrap: wrap;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin: auto;
+    margin-bottom: 15%;
+    margin-top: 10%;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-    margin: 0;
-
 
 }
 
@@ -66,7 +63,7 @@
     
 }
 .spann{
-    position: absolute;
+    
     bottom: 0;
     right: 0;
     padding-bottom: 5px;

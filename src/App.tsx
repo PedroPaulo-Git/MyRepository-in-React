@@ -17,13 +17,10 @@ const App: React.FC = () => {
     return (
 
       <div>
-      <Header/>   
-      <Routes>
-        <Route path='/' element={<Outlet/>}/>
-          <Route index element={<Home />} />
-          <Route path='/serviços' element={<Skillsets/>}/>
-          <Route path='Contato' element={<Contact/>}/>
-      </Routes>
+         <Header/>   
+          <Home />
+          <Skillsets/>
+          <Contact/>
       </div>
 
     );
