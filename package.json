@@ -1,6 +1,6 @@
 {
   "name": "myrepository-in-react-main",
-  "homepages": "https://pedropaulo-git.github.io/MyRepository-in-React",
+  "homepages": "MyRepository-in-React/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
