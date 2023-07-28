@@ -52,16 +52,22 @@ h1.logoname1{
     color: rgb(0, 238, 255);
 }
 
-@media(max-width: 767px) {
+@media(max-width: 900px) {
     .header{
         width: 150%;
     }
     h1.logoname1{
-        font-size: 20px;
+        font-size: 22px;
+        font-weight: 500;
+        font-family: "Raleway",sans-serif;
+       
         
     }
     h1.logoname{
-        font-size: 20px
+        font-size: 22px;
+        font-weight: 500;
+        font-family: "Raleway",sans-serif;
+        
     }
    
     .mainheader{
@@ -69,9 +75,16 @@ h1.logoname1{
       margin-left: 20px;
     }
     .logo{
-        height: 50px;
-        margin-top: 12px;
+        height: 70px;
+        width: 70px;
+        margin-top: 5px;
     }
-    
+    .maincontainerskill{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(3,100px);
+        column-gap:5px;
+        row-gap: 10px;
+    }
    
 }

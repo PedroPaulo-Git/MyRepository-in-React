@@ -14,8 +14,10 @@ function Contact(){
             <input className={style.buttoncontact}type="submit" value="Conecte-se" />
             
            
-        </main> <span className={style.spann}>
-        (81) 98152-3701<img src={Iconwpp} style={{width:20,marginLeft:10}}/></span>
+        </main> <span className={style.spann}>(81) 98152-3701<img className={style.wpp} src={Iconwpp} style={{
+            width:20,marginLeft:10
+            
+       }}/></span>
         </div>
     )
 }

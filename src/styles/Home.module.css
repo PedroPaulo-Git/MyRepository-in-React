@@ -46,20 +46,21 @@ h1{
 
     .homeall{
         display: block;
-        margin-top: 20%;
+        margin-top: 25%;
         padding: 20px;
-        width: 150%;
+        width: 100%;
     } 
     .homebutton{
-        font-size: 10px;
+        font-size: 15px;
         margin-top: 20px;
         padding-inline: 10px ;
         padding-block: 10px;
     }
     .seguir{
-        margin-top: 2px;
-        width: 5px;
-         margin-left: 5px;
+        margin-top: 3px;
+        width: 12px;
+        height: 12px;
+        margin-left: 5px;
     }
 }
 @media(max-width: 450px){

@@ -69,12 +69,10 @@ h5{
     margin-top: 10px;
 }
 @media(max-width: 767px){
-    .skillall{
-
-    }
+    
     .pskill{
         margin-bottom: 0;
-        font-size: 5px;
+        font-size:9px;
         color: white;
     }
     .maincontainerskill{
@@ -93,11 +91,11 @@ h5{
         
     }
     h3{
-        font-size: 8px;
+        font-size: 15px;
     }
     .imgskill{
-        width: 15px;
-        height: 15px;
+        width: 22px;
+        height: 22px;
     }
     .skillset_style{
         transition: width 2s ease-in-out;
@@ -112,21 +110,39 @@ h5{
        width: 100px;
     }
     h1.h1skill{
-        font-size: 22px;
+        font-size: 30px;
         display: flex;
         color: rgb(0, 238, 255);
         margin: 0;
     }
     h5{
-        font-size: 5px;
+        font-size: 10px;
     }
 }
-@media (max-width:400px){
+@media (max-width:900px){
     .maincontainerskill{
         margin-top: 5%;
         display: grid;
-        grid-template-columns: repeat(3,100px);
-        column-gap:5px;
+        grid-template-columns: repeat(3,220px);
+        column-gap:35px;
         row-gap: 10px;
+    }
+}
+@media (max-width:767px){
+    .maincontainerskill{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(4,150px);
+        margin-right: 10px;
+        column-gap:25px;
+        row-gap: 10px;
+    }
+    .containerskill{
+       
+        height: 150px;
+        width: 150px;
+        padding: 0;
+        
+        
     }
 }

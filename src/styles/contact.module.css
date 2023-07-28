@@ -72,17 +72,16 @@
     color: white;
 }
 @media(max-width: 767px){
+    img.wpp{
+        width: 5px !important;
+        height: 5px;
+    }
+    .spann{
+        font-size: 5px;
+    }
     .containerContact{
-        width: 300px;
-        flex-direction: column;
-        padding: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        margin: auto;
-        margin-bottom: 15%;
-        margin-top: 10%;
-        justify-content: center;
-        align-items: center;
+        width: 400px;
+       margin-left: 30%;
     
     } 
     .h1contact{
@@ -104,13 +103,12 @@
         
     }
     .buttoncontact{
-        font-weight: 00;
-        color: rgb(0, 36, 37);
-        font-size: 5px;
+        
+        font-size: 8px;
         border: none;
         background-color:rgb(0, 238, 255);
-        width: 20%;
-        height: 10px;
+        width: 30%;
+        height: 20px;
      
     }
 }

@@ -50,7 +50,7 @@ span.headerNav{
     transition: all 0.4s;
     width: 100%;
   }
-  @media(max-width: 767px) {
+  @media(max-width: 900px) {
 
     #navegationheader{
       display: none;
