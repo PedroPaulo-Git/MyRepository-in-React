@@ -48,6 +48,7 @@ h1{
         display: block;
         margin-top: 20%;
         padding: 20px;
+        width: 150%;
     } 
     .homebutton{
         font-size: 10px;
@@ -60,4 +61,11 @@ h1{
         width: 5px;
          margin-left: 5px;
     }
+}
+@media(max-width: 450px){
+    .homeall{
+        display: block;
+        margin-top: 25%;
+        
+    } 
 }

@@ -69,6 +69,9 @@ h5{
     margin-top: 10px;
 }
 @media(max-width: 767px){
+    .skillall{
+
+    }
     .pskill{
         margin-bottom: 0;
         font-size: 5px;
@@ -116,5 +119,14 @@ h5{
     }
     h5{
         font-size: 5px;
+    }
+}
+@media (max-width:400px){
+    .maincontainerskill{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(3,100px);
+        column-gap:5px;
+        row-gap: 10px;
     }
 }

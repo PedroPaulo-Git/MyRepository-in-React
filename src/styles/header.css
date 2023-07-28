@@ -53,16 +53,17 @@ h1.logoname1{
 }
 
 @media(max-width: 767px) {
-  
+    .header{
+        width: 150%;
+    }
     h1.logoname1{
-        font-size: 20px
+        font-size: 20px;
+        
     }
     h1.logoname{
         font-size: 20px
     }
-    .header{
-       
-    }
+   
     .mainheader{
       padding: 0;
       margin-left: 20px;
