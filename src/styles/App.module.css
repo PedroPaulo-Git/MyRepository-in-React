@@ -4,6 +4,9 @@ body{
     margin: 0;
     padding: 0;
 }
+main{
+    padding: 10px;
+}
 @media(max-width: 767px) {
     .homeall{
         display: block;
@@ -19,19 +22,29 @@ body{
         margin-left: 0;
     }
     main{
+        
         margin-left: 30px;
+        box-sizing: border-box;
+        
 
         
     }
     h1{
-        font-size: 25px;
+        font-size: 20px;
         
     }
     
     p{
-        font-size: 13px;
+        font-size: 12px;
     }
   }
-main{
-    padding: 10px;
+  @media(max-width: 767px) { .phome{
+    max-width: 60%;
+    color: rgb(190, 190, 190);
+}
+h1{
+    max-width: 80%;
+    font-size: 30px;
+    color: white;
+}
 }

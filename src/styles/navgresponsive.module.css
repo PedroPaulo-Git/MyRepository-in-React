@@ -1,0 +1,21 @@
+
+img.menu{
+    
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    display: none;
+
+}
+.spanmenu{
+    z-index: 2;
+   
+}
+@media(max-width: 900px){
+    img.menu{
+    
+        display: block;
+    
+    }
+}

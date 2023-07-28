@@ -54,7 +54,7 @@ h1.logoname1{
 
 @media(max-width: 900px) {
     .header{
-        width: 150%;
+        width: 100%;
     }
     h1.logoname1{
         font-size: 22px;

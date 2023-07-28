@@ -48,7 +48,7 @@ h1{
         display: block;
         margin-top: 25%;
         padding: 20px;
-        width: 100%;
+        width:calc(100% - 30px);
     } 
     .homebutton{
         font-size: 15px;
