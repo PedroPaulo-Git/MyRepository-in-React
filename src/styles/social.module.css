@@ -11,3 +11,9 @@
     border-top: 2px solid rgb(0, 238, 255);
     border-bottom: 2px solid rgb(0, 238, 255);
 }
+@media(max-width: 767px){
+    .imgsocial{
+    width: 20px;
+    height: 20px;
+    }
+}

@@ -15,8 +15,10 @@ const Header: React.FC = () => {
       <header className="header">
         <main className='mainheader'>
           <img src={Logo} alt="Logo" className='logo'/>
+        
           <h1 className='logoname1'>Port</h1>
           <h1 className='logoname'>Pedro</h1>
+   
     <div id='navegationheader'>
         <NavLink className={({ isActive }) =>
             [

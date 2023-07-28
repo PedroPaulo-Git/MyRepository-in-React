@@ -68,3 +68,53 @@ h5{
     width: 50px;
     margin-top: 10px;
 }
+@media(max-width: 767px){
+    .pskill{
+        margin-bottom: 0;
+        font-size: 5px;
+        color: white;
+    }
+    .maincontainerskill{
+        margin-top: 5%;
+        display: grid;
+        grid-template-columns: repeat(4,100px);
+        column-gap:5px;
+        row-gap: 10px;
+    }
+    .containerskill{
+       
+        height: 100px;
+        width: 80px;
+        padding: 0;
+        
+        
+    }
+    h3{
+        font-size: 8px;
+    }
+    .imgskill{
+        width: 15px;
+        height: 15px;
+    }
+    .skillset_style{
+        transition: width 2s ease-in-out;
+        margin-top: 1%;
+        width: 50px;
+        position: absolute;
+        height: 2px;
+        background-color:rgb(0, 238, 255);
+    }
+    h1.h1skill:hover + .skillset_style {
+       transition: width 1s ease-in-out;
+       width: 100px;
+    }
+    h1.h1skill{
+        font-size: 22px;
+        display: flex;
+        color: rgb(0, 238, 255);
+        margin: 0;
+    }
+    h5{
+        font-size: 5px;
+    }
+}

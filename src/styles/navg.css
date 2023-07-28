@@ -9,6 +9,7 @@
     flex-direction: row;
     gap: 80px;
 }
+
 span.headerNav{
     color: white;
 }
@@ -48,6 +49,12 @@ span.headerNav{
   .link_nav.active:hover::after{
     transition: all 0.4s;
     width: 100%;
+  }
+  @media(max-width: 767px) {
+
+    #navegationheader{
+      display: none;
+    }
   }
  
   

@@ -3,6 +3,10 @@
     margin-top: 11%;
     padding: 20px;
 }
+
+
+
+
 .phome{
     max-width: 39%;
     color: rgb(190, 190, 190);
@@ -38,3 +42,22 @@ h1{
     margin-left: 5px;
 }
 
+@media(max-width: 767px) {
+
+    .homeall{
+        display: block;
+        margin-top: 20%;
+        padding: 20px;
+    } 
+    .homebutton{
+        font-size: 10px;
+        margin-top: 20px;
+        padding-inline: 10px ;
+        padding-block: 10px;
+    }
+    .seguir{
+        margin-top: 2px;
+        width: 5px;
+         margin-left: 5px;
+    }
+}
