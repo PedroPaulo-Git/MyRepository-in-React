@@ -119,9 +119,7 @@ h5{
     }
 }
 @media (max-width:900px){
-    .skillall{
-        
-    }
+    
     .maincontainerskill{
         margin-top: 5%;
         display: grid;
@@ -139,9 +137,7 @@ h5{
     }
 }
 @media (min-width:900px){
-    .skillall{
-        
-    }
+   
     .maincontainerskill{
         margin-top: 5%;
         display: grid;
@@ -159,9 +155,6 @@ h5{
     }
 }
 @media (min-width:1300px){
-    .skillall{
-        
-    }
     .maincontainerskill{
     
         margin-top: 5%;
