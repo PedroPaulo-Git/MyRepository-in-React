@@ -1,7 +1,6 @@
 #navegationheader{
     height: 100%;
-    align-items: center;
-    
+    align-items: center; 
     position:absolute;
     margin-right: 80px;
     right: 0;
@@ -12,6 +11,7 @@
 
 span.headerNav{
     color: white;
+    font-size: 16px;
 }
 .link_nav {
     justify-content: center;

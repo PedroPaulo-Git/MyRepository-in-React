@@ -60,7 +60,7 @@ const Header = () => {
             <NavLink
               to="/contato"
               ref={(el) => (navLinksRef.current[2] = el)}
-              className={linkAtivo === '/contato' ? 'link_nav active' : 'link_nav'}
+              className={linkAtivo === '/contato' ? 'link_nav ' : 'link_nav'}
             >
               <span className='headerNav'>Contato</span>
             </NavLink>

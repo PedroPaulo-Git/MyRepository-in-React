@@ -28,9 +28,8 @@ main{
    
 }
 .logo{
-    height:100px;
+    height:80px;
     position: relative;
-    margin-top: -10px;
     transition: all 0.8s; 
     -webkit-user-drag: none;
 }
@@ -41,14 +40,14 @@ h1.logoname{
     font-family: sans-serif;
     margin-top: 28px;
     font-weight: 400;
-    font-size: 27px;
+    font-size: 24px;
     color: rgb(255, 255, 255);
 }
 h1.logoname1{
     font-family: sans-serif;
     margin-top: 28px;
     font-weight:400;
-    font-size: 27px;
+    font-size: 24px;
     color: rgb(0, 238, 255);
 }
 
