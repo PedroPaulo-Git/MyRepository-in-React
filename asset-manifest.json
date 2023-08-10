@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/MyRepository-in-React/static/css/main.1e051a37.css",
-    "main.js": "/MyRepository-in-React/static/js/main.525972ff.js",
+    "main.css": "/MyRepository-in-React/static/css/main.0c250b86.css",
+    "main.js": "/MyRepository-in-React/static/js/main.83875c95.js",
     "static/js/787.b93dda1e.chunk.js": "/MyRepository-in-React/static/js/787.b93dda1e.chunk.js",
     "static/media/Raleway-VariableFont_wght.ttf": "/MyRepository-in-React/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
     "static/media/ICONE.png": "/MyRepository-in-React/static/media/ICONE.60c03137368130a4b5e3.png",
     "index.html": "/MyRepository-in-React/index.html",
-    "main.1e051a37.css.map": "/MyRepository-in-React/static/css/main.1e051a37.css.map",
-    "main.525972ff.js.map": "/MyRepository-in-React/static/js/main.525972ff.js.map",
+    "main.0c250b86.css.map": "/MyRepository-in-React/static/css/main.0c250b86.css.map",
+    "main.83875c95.js.map": "/MyRepository-in-React/static/js/main.83875c95.js.map",
     "787.b93dda1e.chunk.js.map": "/MyRepository-in-React/static/js/787.b93dda1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e051a37.css",
-    "static/js/main.525972ff.js"
+    "static/css/main.0c250b86.css",
+    "static/js/main.83875c95.js"
   ]
 }
