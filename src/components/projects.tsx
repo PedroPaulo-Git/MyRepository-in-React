@@ -9,9 +9,12 @@ function Projects() {
     return (
         <div>
             <main className={styles.projetscALL}>
+                
+                <div className={styles.projectTop}>
                 <h3>Trabalhos concluídos</h3>
                 <h1 className={styles.projetsch1}>Projetos</h1>
                 <span className={styles.skillset_style}></span>
+                </div>
                 <div className={styles.projets}>
                     <div className={styles.projet1}>
 

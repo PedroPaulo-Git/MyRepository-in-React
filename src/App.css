@@ -22,7 +22,7 @@ h1.h1skill:hover + .skillset_style {
 }
 @media(max-width: 767px) {
   .body {
-    max-width: 300;
+    max-width: 100%;
     padding: 20px;
   }
   

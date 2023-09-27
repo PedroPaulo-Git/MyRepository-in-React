@@ -44,12 +44,18 @@
 }
 
 @media(max-width: 767px) {
-   
+   *{
+    max-width: 100%;
+    overflow: hidden;
+   }
+   .h1homeall{
+    max-width: 80%;
+   }
     .homeall{
         display: block;
         margin-top: 25%;
         padding: 20px;
-        width:calc(120% - 30px);
+        width:100%;
     } 
     .homebutton{
         font-size: 15px;
