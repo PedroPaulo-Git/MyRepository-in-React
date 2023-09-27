@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyRepository-in-React/static/css/main.d0c0e975.css",
+    "main.css": "/MyRepository-in-React/static/css/main.491b5faa.css",
     "main.js": "/MyRepository-in-React/static/js/main.f5e563a3.js",
     "static/js/787.b93dda1e.chunk.js": "/MyRepository-in-React/static/js/787.b93dda1e.chunk.js",
     "static/media/Pokedex.png": "/MyRepository-in-React/static/media/Pokedex.a6d11cd772b2f2802b20.png",
@@ -9,12 +9,12 @@
     "static/media/Raleway-VariableFont_wght.ttf": "/MyRepository-in-React/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
     "static/media/ICONE.png": "/MyRepository-in-React/static/media/ICONE.60c03137368130a4b5e3.png",
     "index.html": "/MyRepository-in-React/index.html",
-    "main.d0c0e975.css.map": "/MyRepository-in-React/static/css/main.d0c0e975.css.map",
+    "main.491b5faa.css.map": "/MyRepository-in-React/static/css/main.491b5faa.css.map",
     "main.f5e563a3.js.map": "/MyRepository-in-React/static/js/main.f5e563a3.js.map",
     "787.b93dda1e.chunk.js.map": "/MyRepository-in-React/static/js/787.b93dda1e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0c0e975.css",
+    "static/css/main.491b5faa.css",
     "static/js/main.f5e563a3.js"
   ]
 }
