@@ -3,10 +3,6 @@ import '../styles/navg.css';
 import '../styles/header.css';
 import Logo from '../imgs/ICONE.png';
 import { NavLink } from 'react-router-dom';
-import Navgres from './navgresponsive';
-import Home from './home';
-import Skillsets from './skillsets';
-import Contact from './contact';
 
 const Header = () => {
   const [linkAtivo, setLinkAtivo] = useState<string | null>(null);

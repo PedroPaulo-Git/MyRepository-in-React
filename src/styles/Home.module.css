@@ -31,6 +31,7 @@
         cursor: pointer;
     
 }
+
 .homebutton:hover{
     background-color: rgb(0, 89, 95);
     transform: scale(1.05);
@@ -43,12 +44,12 @@
 }
 
 @media(max-width: 767px) {
-
+   
     .homeall{
         display: block;
         margin-top: 25%;
         padding: 20px;
-        width:calc(100% - 30px);
+        width:calc(120% - 30px);
     } 
     .homebutton{
         font-size: 15px;
@@ -67,6 +68,6 @@
     .homeall{
         display: block;
         margin-top: 25%;
-        
     } 
+
 }

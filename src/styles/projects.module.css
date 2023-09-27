@@ -38,51 +38,96 @@ h1.projetsch1:hover+.skillset_style {
 
 
 }
-.projet1{
+
+.projet1 {
+
+    transition: 1s;
+    position: relative;
     border-radius: 3%;
     background-color: rgb(0, 116, 124);
     width: 250px;
     height: 350px;
-    overflow: hidden;
+
 }
-.projectinfo{
- padding-inline: 5%;
- text-align: left;
+.projectLinks{
+    cursor: pointer;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 5%;
 }
-.h1infoproject{
-    
+
+
+.projet1:hover {
+    transition: 1s;
+    transform: scale(1.1);
+    z-index: 1;
+
+}
+
+.imgprojet1content:hover {
+    z-index: 2;
+    position: relative;
+    cursor: pointer;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    transform: scale(1.5);
+    box-shadow: 5px 5px 10px black;
+
+}
+
+.projectinfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-inline: 5%;
+    text-align: left;
+    height:60%;
+}
+
+.h1infoproject {
+
     margin-top: 0;
     color: rgb(0, 238, 255);
     width: 100%;
     font-size: 12px;
 
 }
-.h1project{
+
+.h1project {
     margin-top: 0;
     font-size: 15px;
     color: white;
 }
-.paragrafoproject{
+
+.paragrafoproject {
     font-size: 14px;
     color: white;
     margin-top: 10%;
-}
-.containerProject1{
-    height: 100%;
-    text-align: center;
-    
-}
-.imgprojet1content{
-   pointer-events: none;
-   padding-top: 5%;
-   padding-bottom: 2%;
-   width: 90%;
-   height: 130px;
-   border-radius: 8px;
 
 }
-a.redirectproject{
-    margin-top: 15%;
+
+.containerProject1 {
+    position: relative;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    height: 100%;
+
+}
+
+.imgprojet1content {
+    width: 90%;
+    height: 130px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+a.redirectproject {
     font-weight: 500;
     color: white;
     display: flex;
@@ -90,26 +135,29 @@ a.redirectproject{
     width: 50%;
     align-items: center;
     text-align: center;
-    justify-content: left; 
+    justify-content: left;
     text-decoration: none;
-    
+
 }
-a.redirectproject:hover{
+
+a.redirectproject:hover {
 
     color: rgb(0, 238, 255);
 
 }
-.paragraforedirectproject{
+
+.paragraforedirectproject {
     margin-right: 5px;
-   
-  
-    
+
+
+
 }
 
 
 @media(max-width: 767px) {
     .projetsch1 {
         margin-bottom: 0.3vh;
+        
     }
 
     .projets_content {

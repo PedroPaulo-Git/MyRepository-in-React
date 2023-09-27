@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Outlet} from 'react-router-dom';
 import Header from './components/header';
 import Navgres from './components/navgresponsive'
 import Home from './components/home';
