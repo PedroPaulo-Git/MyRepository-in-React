@@ -46,7 +46,7 @@
 @media(max-width: 767px) {
    *{
     max-width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
    }
    .h1homeall{
     max-width: 80%;
