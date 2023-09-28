@@ -2,7 +2,8 @@ import React from 'react'
 import styles from '../styles/projects.module.css';
 import projeto1 from '../imgs/siteShopping.png';
 import projeto2 from '../imgs/SiteMoviesRatingFIRST.png';
-import projeto3 from '../imgs/Pokedex.png'
+import projeto3 from '../imgs/Pokedex.png';
+import projeto4 from '../imgs/MarioBros.png';
 import Git from '../imgs/icongithub.png'
 import { AiOutlineArrowRight } from "react-icons/ai";
 function Projects() {
@@ -29,6 +30,27 @@ function Projects() {
                                 <div className={styles.projectLinks}>
                                     <a className={styles.redirectproject} href="https://github.com/PedroPaulo-Git/Shopping_app"><p className={styles.paragraforedirectproject}>Ver Projeto </p> <AiOutlineArrowRight /></a>
                                    <a href="https://github.com/PedroPaulo-Git/Shopping_app"> <img style={{ width: '20px', height: "20px" }} src={Git} /></a>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div className={styles.projet1}>
+
+
+                        <div className={styles.containerProject1}>
+
+                            <a href="https://pedropaulo-git.github.io/MarioBrosGame/"><img style={{ zIndex: 1 }} className={styles.imgprojet1content} src={projeto4} alt="" /></a>
+                            <div className={styles.projectinfo}>
+                                <h1 className={styles.h1infoproject}>Desenvolvimento de Game: Mario Bros</h1>
+                                <h1 className={styles.h1project}>Mini Game Mario Bros</h1>
+                                <p className={styles.paragrafoproject}>
+                                    Mini Jogo do Mario Bros desenvolvido apenas com JavaScript</p>
+                                <div className={styles.projectLinks}>
+                                    <a className={styles.redirectproject} href="https://pedropaulo-git.github.io/MarioBrosGame/"><p className={styles.paragraforedirectproject}>Ver Projeto </p> <AiOutlineArrowRight /></a>
+                                   <a href="https://github.com/PedroPaulo-Git/MarioBrosGame"> <img style={{ width: '20px', height: "20px" }} src={Git} /></a>
                                 </div>
                             </div>
                         </div>
