@@ -161,6 +161,13 @@ a.redirectproject:hover {
         overflow-x: hidden;
         max-width: 100%;
     }
+    .paragrafoproject{
+        height: 100%;
+        margin: 0;
+    }
+    h1.h1infoproject{
+        width: 100%;
+    }
     .projetsch1 {
         margin-bottom: 0.3vh;
 
@@ -179,6 +186,7 @@ a.redirectproject:hover {
     }
 
     .projets {
+        padding-left: 2%;
         overflow: scroll;
         width: 100%;
         display: grid;

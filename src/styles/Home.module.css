@@ -44,7 +44,7 @@
 }
 
 @media(max-width: 767px) {
-   *{
+   body{
     max-width: 100%;
     overflow-x: hidden;
    }

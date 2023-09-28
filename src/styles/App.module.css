@@ -38,12 +38,11 @@ main{
         font-size: 12px;
     }
   }
-  @media(max-width: 767px) { .phome{
-    max-width: 60%;
+  @media(max-width: 767px) { 
+    .phome{
     color: rgb(190, 190, 190);
 }
 h1{
-    max-width: 80%;
     font-size: 30px;
     color: white;
 }
