@@ -20,7 +20,7 @@ function Skillsets() {
 
 
 
-        <div>
+        <div id='skills'>
             <main className={styles.skillall}>
                 <h3>Competências</h3>
                 <h1 className={styles.h1skill}>Skill-Sets</h1>

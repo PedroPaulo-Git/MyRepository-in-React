@@ -1,6 +1,5 @@
 import React from "react";
 import { useRef } from 'react';
-import {Link} from 'react-router-dom'
 import style from '../styles/contact.module.css';
 import Iconwpp from '../imgs/iconwhatsapp.png';
 import emailjs from '@emailjs/browser';
@@ -23,7 +22,7 @@ function Contact(){
    
 
     return(
-        <div>
+        <div id="contact">
             
             <main className={style.containerContact} >
             <form ref={form} onSubmit={sendEmail}>
