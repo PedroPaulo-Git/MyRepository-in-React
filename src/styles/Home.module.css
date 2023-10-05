@@ -15,6 +15,43 @@
     max-width: 60%;
     font-size: 50px;
     color: white;
+    position: relative;
+
+}
+.h1homeall::after{
+    background-color: rgb(0, 43, 56);
+    position: absolute;
+    content: '';
+    right: 13%;
+    border-left: 4px solid rgb(0, 238, 255);
+    animation:
+    
+    typing 3s steps(30),
+    cursor 0.6s step-end infinite alternate;
+    height: 45%;
+    width:0%;
+
+}
+@keyframes typing{
+    100%{
+        left: 85%;
+        margin: 0 -10px 0 0px;
+        
+    }
+    0%{
+        left: 0;
+        width: 100%;
+        
+    }
+}
+@keyframes cursor {
+    0%{
+       
+    }
+    50%{
+        border-color: transparent;
+        
+    }
 }
 .homebutton{
         display: flex;

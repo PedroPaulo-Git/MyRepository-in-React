@@ -7,9 +7,10 @@ import Logo from '../imgs/ICONE.png';
 const Header = () => {
 
 
-  const [isHomeLinkHovered, setIsHomeLinkHovered] = useState(false);
+  const [isHomeLinkHovered, setIsHomeLinkHovered] = useState(true);
   const [isSkillsLinkHovered, setIsSkillsLinkHovered] = useState(false);
   const [isContactLinkHovered, setIsContactLinkHovered] = useState(false);
+  const [isProjectLinkHovered, setIsProjectLinkHovered] = useState(false);
   const navLinksRef = useRef([]);
 
 
@@ -32,6 +33,7 @@ const Header = () => {
               onMouseEnter={() => {
 
                 setIsHomeLinkHovered(true);
+                setIsProjectLinkHovered(false);  
                 setIsSkillsLinkHovered(false);
                 setIsContactLinkHovered(false);
               }
@@ -50,6 +52,7 @@ const Header = () => {
               className={`link_nav ${isSkillsLinkHovered ? 'link_nav active' : ''}`}
               onMouseEnter={() => {
                 setIsHomeLinkHovered(false);
+                setIsProjectLinkHovered(false);  
                 setIsSkillsLinkHovered(true);
                 setIsContactLinkHovered(false)
               }}
@@ -60,12 +63,32 @@ const Header = () => {
             <Link
               spy={true}
               smooth={true}
+              offset={30}
+              duration={1000}
+              to="skills"
+              className={`link_nav ${isProjectLinkHovered ? 'link_nav active' : ''}`}
+              onMouseEnter={() => {
+                setIsProjectLinkHovered(true);
+                setIsContactLinkHovered(false);  
+                setIsSkillsLinkHovered(false);
+                setIsHomeLinkHovered(false);
+             
+              }
+              }
+              onMouseLeave={() => setIsProjectLinkHovered(true)}
+            >
+              <span className='headerNav'>Projetos</span>
+            </Link>
+            <Link
+              spy={true}
+              smooth={true}
               offset={50}
               duration={1000}
               to="contact"
               className={`link_nav ${isContactLinkHovered ? 'link_nav active' : ''}`}
               onMouseEnter={() => {
-                setIsContactLinkHovered(true);  
+                setIsContactLinkHovered(true);
+                setIsProjectLinkHovered(false);  
                 setIsSkillsLinkHovered(false);
                 setIsHomeLinkHovered(false);
              
@@ -75,6 +98,7 @@ const Header = () => {
             >
               <span className='headerNav'>Contato</span>
             </Link>
+           
           </div>
         </main>
       </header>
