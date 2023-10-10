@@ -12,10 +12,46 @@ img.menu{
     z-index: 2;
    
 }
+.menulist{
+    display: none;
+}
 @media(max-width: 900px){
+    .spanmenu{
+        
+        position: absolute;
+        right: 0;
+
+       
+    }
     img.menu{
     
-        display: block;
+        display: flex;
+        position: relative;
+        
     
+    }
+    .menulist{
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 0;
+        background-color: rgb(0, 30, 39);
+        height: 300px;
+        width: 150px;
+        
+
+    }
+    .menulist ul{
+        width: 80%;
+        padding-inline: 10%;
+        color: #FFFF;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: start;
+        padding: 0;
+        margin: 0;
+
     }
 }

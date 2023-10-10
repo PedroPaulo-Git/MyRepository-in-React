@@ -63,9 +63,9 @@ const Header = () => {
             <Link
               spy={true}
               smooth={true}
-              offset={30}
+              offset={-100}
               duration={1000}
-              to="skills"
+              to="projets"
               className={`link_nav ${isProjectLinkHovered ? 'link_nav active' : ''}`}
               onMouseEnter={() => {
                 setIsProjectLinkHovered(true);

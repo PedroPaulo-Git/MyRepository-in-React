@@ -9,7 +9,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 function Projects() {
     return (
         <div>
-            <main className={styles.projetscALL}>
+            <main id='projets' className={styles.projetscALL}>
                 
                 <div className={styles.projectTop}>
                 <h3>Trabalhos concluídos</h3>

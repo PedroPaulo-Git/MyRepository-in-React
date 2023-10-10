@@ -8,7 +8,7 @@ function Home() {
         <div>
             <main className={styles.homeall}>
              
-            <h1 className={styles.h1homeall} >Olá, eu sou um <span style={{fontSize:50,width:'20%'}}>Desenvolvedor Front-end</span></h1>
+            <h1 className={styles.h1homeall} >Olá, eu sou um <br></br><span style={{fontSize:50,width:'20%'}}>Desenvolvedor Front-end</span></h1>
             <p  className={styles.phome}>Meu foco é front-end e este é meu portfólio. Aqui, você encontrará exemplos 
             de trabalhos que realizei, incluindo sites e aplicações. 
             Fico feliz em poder compartilhar um pouco do meu trabalho com você.</p>

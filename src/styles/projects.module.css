@@ -32,21 +32,21 @@ h1.projetsch1:hover+.skillset_style {
 }
 
 .projets {
+    padding-left: 5%;
     width: 100%;
     display: grid;
-    padding-top: 5%;
+    padding-block: 5%;
     grid-template-columns: repeat(4, 0fr);
-    gap:15px;
+    gap:20px;
     margin-top: 2vh;
 }
 
 .projet1 {
-
+    
     transition: 1s;
     position: relative;
-    border-radius: 3%;
     background-color: rgb(0, 116, 124);
-    width: 250px;
+    width: 220px;
     height: 350px;
 
 }
@@ -62,22 +62,51 @@ h1.projetsch1:hover+.skillset_style {
 
 
 .projet1:hover {
-    transition: 1s;
-    transform: scale(1.1);
-    z-index: 1;
+  transform: scale(1.1);
 
 }
+.projet1::before{
+
+    content: '';
+    transition: 1s ease-in-out;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    border-top: 2px solid transparent;
+    border-right: 2px solid transparent;
+}
+.projet1::after{
+
+    content: '';
+    width: 0px;
+    transition: 1s ease-in-out;
+    height: 0px;
+    position: absolute;
+    bottom: -1px;
+    left: -1px;
+    border-bottom: 2px solid transparent;
+    border-left: 2px solid transparent;
+}
+.projet1:hover::after {
+    width: 100%;
+    height: 100%;
+    border-bottom:2px solid #00ffff;
+    border-left: 2px solid #00ffff;
+ }
+.projet1:hover::before {
+   width: 100%;
+   height: 100%;
+   border-top:2px solid #00ffff;
+   border-right: 2px solid #00ffff;
+}
+
 
 .imgprojet1content:hover {
     z-index: 2;
     position: relative;
     cursor: pointer;
-    margin-top: 5%;
-    margin-bottom: 2%;
-    border-radius: 5px;
-    transform: scale(1.5);
-    box-shadow: 5px 5px 10px black;
-
 }
 
 .projectinfo {
@@ -125,7 +154,6 @@ h1.projetsch1:hover+.skillset_style {
 .imgprojet1content {
     width: 90%;
     height: 130px;
-    border-radius: 5px;
     transition: 1s;
 }
 
@@ -160,6 +188,9 @@ a.redirectproject:hover {
     body{
         overflow-x: hidden;
         max-width: 100%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
     }
     .paragrafoproject{
         height: 100%;
@@ -186,9 +217,9 @@ a.redirectproject:hover {
     }
 
     .projets {
-        padding-left: 2%;
+        padding-left: 5%;
         overflow: scroll;
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         gap: 20px;
@@ -203,5 +234,7 @@ a.redirectproject:hover {
 }
 
 @media (max-width:900px) {
-    .projetscALL {}
+    .projets {
+        overflow-y: hidden;
+    }
 }

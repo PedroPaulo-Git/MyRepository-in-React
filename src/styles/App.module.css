@@ -8,6 +8,9 @@ main{
     padding: 10px;
 }
 @media(max-width: 767px) {
+    body{
+        overflow-x: hidden;
+    }
     .homeall{
         display: block;
         margin-top: 50%;
