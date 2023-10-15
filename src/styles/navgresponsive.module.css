@@ -24,13 +24,14 @@ img.menu{
        
     }
     img.menu{
-    
+        cursor: pointer;
         display: flex;
         position: relative;
         
     
     }
     .menulist{
+        transition: 1s;
         display: flex;
         justify-content: space-evenly;
         position: absolute;
@@ -42,6 +43,7 @@ img.menu{
 
     }
     .menulist ul{
+        cursor: pointer;
         width: 80%;
         padding-inline: 10%;
         color: #FFFF;
@@ -53,5 +55,10 @@ img.menu{
         padding: 0;
         margin: 0;
 
+    }
+    .menulist li:hover{
+        padding-bottom: 5px;
+        border-bottom: 2px solid #FFFF;
+        width: 60%
     }
 }

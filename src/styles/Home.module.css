@@ -20,7 +20,7 @@
     background-color: rgb(0, 43, 56);
     position: absolute;
     content: '';
-    right: 48%;
+    right: 48.0%;
     border-left: 4px solid rgb(0, 238, 255);
     animation:
     typing 4s steps(30),
