@@ -35,7 +35,7 @@ h1.h1skill:hover + .skillset_style {
 
 
 .containerskill{
-
+padding: 5%;
 height: 225px;
 text-align: center;
 display: block;
@@ -193,9 +193,9 @@ h5{
     }
     .containerskill{
        
-        height: 175px;
-        width: 175px;
-        padding: 0;
+        height: 150px;
+        width: 150px;
+        padding: 10%;
         
         
     }

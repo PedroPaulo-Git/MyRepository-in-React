@@ -38,7 +38,7 @@ main{
     }
     
     p{
-        font-size: 12px;
+        font-size: 14px;
     }
   }
   @media(max-width: 767px) { 

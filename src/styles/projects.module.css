@@ -6,7 +6,6 @@
     position: relative;
 }
 
-.projectTop {}
 
 .projetsch1 {
     font-size: 50px;
@@ -52,7 +51,8 @@ h1.projetsch1:hover+.skillset_style {
 }
 
 .projectLinks {
-    cursor: pointer;
+    z-index: 2;
+    
     height: 20%;
     display: flex;
     align-items: center;
@@ -152,6 +152,7 @@ h1.projetsch1:hover+.skillset_style {
 }
 
 .imgprojet1content {
+    z-index: 3;
     width: 90%;
     height: 130px;
     transition: 1s;
@@ -233,8 +234,17 @@ a.redirectproject:hover {
     }
 }
 
-@media (max-width:900px) {
+@media (max-width:1300px) {
     .projets {
         overflow-y: hidden;
+        max-width: 90%;
     }
+  
+}
+@media (max-width:1000px) {
+    .projets {
+        overflow-y: hidden;
+        max-width: 90%;
+    }
+  
 }
