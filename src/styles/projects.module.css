@@ -32,7 +32,7 @@ h1.projetsch1:hover+.skillset_style {
 
 .projets {
     padding-left: 5%;
-    width: 100%;
+    width: 90%;
     display: grid;
     padding-block: 5%;
     grid-template-columns: repeat(4, 0fr);
@@ -52,7 +52,6 @@ h1.projetsch1:hover+.skillset_style {
 
 .projectLinks {
     z-index: 2;
-    
     height: 20%;
     display: flex;
     align-items: center;

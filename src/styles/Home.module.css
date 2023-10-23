@@ -16,11 +16,10 @@
     position: relative;
 
 }
-.h1homeall::after{
+.DevH1::after{
     background-color: rgb(0, 43, 56);
     position: absolute;
-    content: '';
-    right: 48.0%;
+    content: ''; 
     border-left: 4px solid rgb(0, 238, 255);
     animation:
     typing 4s steps(30),
@@ -28,6 +27,16 @@
     height: 45%;
     width:0%;
 
+}
+.frontendH1::after{
+    background-color: rgb(0, 43, 56);
+    position: absolute;
+    content: ''; 
+    border-left: 4px solid rgb(0, 238, 255);
+    height: 45%;
+    width:0%;
+    animation:
+    cursor 0.6s step-end infinite alternate;
 }
 
 @keyframes typing{
@@ -45,10 +54,11 @@
     }
 }
 @keyframes cursor {
-    0%{
+    100%{
        
     }
     50%{
+        
         border-color: transparent;
         
     }
@@ -79,8 +89,167 @@
     width: 25px;
     margin-left: 5px;
 }
-
 @media(max-width: 767px) {
+    body{
+        max-width: 100%;
+        overflow-x: hidden;
+       }
+       .h1homeall{
+        width:60%;
+       }
+        .homeall{
+            display: block;
+            margin-top: 25%;
+            padding: 20px;
+            width:80%;
+        } 
+        .homebutton{
+            font-size: 15px;
+            margin-top: 20px;
+            padding-inline: 10px ;
+            padding-block: 10px;
+        }
+        .seguir{
+            margin-top: 3px;
+            width: 12px;
+            height: 12px;
+            margin-left: 5px;
+        }
+        .frontendH1::after{
+            background-color: rgb(0, 43, 56);
+            content: ''; 
+            border-left: 4px solid rgb(0, 238, 255);
+            animation:
+            typingFront 7s;
+            height: 22%;
+            width:0%;
+        }
+        .DevH1::after{
+            background-color: rgb(0, 43, 56);
+            content: ''; 
+            border-left: 4px solid rgb(0, 238, 255);
+            animation:
+            typing 4s steps(20),
+            cursor 0.6s step-end infinite alternate;
+            height: 22%;
+            width:0%;
+        
+        }
+   
+@keyframes typing{
+    100%{
+        left: 100%;    
+        width: 100%;
+    }
+    65%{
+        
+    }
+    55%{
+    }
+    51%{
+        left: 0px;
+        right: 0;
+        top: 75%;
+    }
+    50%{
+        left: 135%;
+        width: 100%;
+        top: 50%;
+    }
+    0%{
+        left: 0;
+        top: 50%;
+        width: 150%;
+        
+    }
+}
+@keyframes typingFront{
+    100%{
+        
+        width: 100%;
+        
+        
+    }
+    50%{
+        border-left: rgb(0, 43, 56);
+  }
+    0%{
+        border-left: rgb(0, 43, 56);
+        left: 0;
+        width: 100%;
+        
+    }
+}
+
+}
+@media(max-width: 500px) {
+    .frontendH1::after{
+        background-color: rgb(0, 43, 56);
+        content: ''; 
+        border-left: 4px solid rgb(0, 238, 255);
+        animation:
+        typingFront 7s;
+        height: 18% !important;
+        width:0%;
+    }
+    .DevH1::after{
+        background-color: rgb(0, 43, 56);
+        content: ''; 
+        border-left: 4px solid rgb(0, 238, 255);
+        animation:
+        typing 4s steps(20),
+        cursor 0.6s step-end infinite alternate;
+        height: 18% !important;
+        width:0%;
+    
+    }
+    @keyframes typing{
+        100%{
+            left: 100%;    
+            width: 100%;
+        }
+        65%{
+            
+        }
+        55%{
+        }
+        51%{
+            left: 0px;
+            right: 0;
+            top: 75%;
+        }
+        50%{
+            left: 155%;
+            width: 100%;
+            top: 40%;
+        }
+        0%{
+            left: 0;
+            top: 40%;
+            width: 150%;
+            
+        }
+    }
+    @keyframes typingFront{
+        100%{
+            
+            width: 100%;
+            
+            
+        }
+        50%{
+            border-left: rgb(0, 43, 56);
+      }
+        0%{
+            border-left: rgb(0, 43, 56);
+            left: 0;
+            width: 100%;
+            
+        }
+    }
+}
+
+/*@media(max-width: 767px) {
    body{
     max-width: 100%;
     overflow-x: hidden;
@@ -263,6 +432,7 @@
         }
     }
 }
+*/
 /*@media(max-width: 900px){
     .homeall{
         display: block;
