@@ -43,6 +43,7 @@ img.menu{
 
     }
     .menulist ul{
+        
         cursor: pointer;
         width: 80%;
         padding-inline: 10%;
