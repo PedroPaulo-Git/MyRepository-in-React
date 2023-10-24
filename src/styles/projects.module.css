@@ -1,7 +1,7 @@
 .projetscALL {
     display: block;
     margin-top: 10vh;
-    height: 600px;
+    height: 850px;
     max-width: 100%;
     position: relative;
 }
@@ -36,7 +36,7 @@ h1.projetsch1:hover+.skillset_style {
     display: grid;
     padding-block: 5%;
     grid-template-columns: repeat(4, 0fr);
-    gap:20px;
+    gap:25px;
     margin-top: 2vh;
 }
 
@@ -67,38 +67,37 @@ h1.projetsch1:hover+.skillset_style {
 .projet1::before{
 
     content: '';
-    transition: 1s ease-in-out;
+    transition: 0.8s ease-in-out;
     width: 0px;
     height: 0px;
     position: absolute;
     top: -1px;
     right: -1px;
-    border-top: 2px solid transparent;
-    border-right: 2px solid transparent;
+    border-top: 3px solid transparent;
+    border-right: 3px solid transparent;
 }
 .projet1::after{
-
     content: '';
     width: 0px;
-    transition: 1s ease-in-out;
+    transition: 0.8s ease-in-out;
     height: 0px;
     position: absolute;
-    bottom: -1px;
-    left: -1px;
-    border-bottom: 2px solid transparent;
-    border-left: 2px solid transparent;
+    bottom: -0px;
+    left: -0px;
+    border-bottom: 3px solid transparent;
+    border-left: 3px solid transparent;
 }
 .projet1:hover::after {
     width: 100%;
     height: 100%;
-    border-bottom:2px solid #00ffff;
-    border-left: 2px solid #00ffff;
+    border-bottom:1px solid #00ffff;
+    border-left: 1px solid #00ffff;
  }
 .projet1:hover::before {
    width: 100%;
    height: 100%;
-   border-top:2px solid #00ffff;
-   border-right: 2px solid #00ffff;
+   border-top:1px solid #00ffff;
+   border-right: 1px solid #00ffff;
 }
 
 
@@ -182,6 +181,66 @@ a.redirectproject:hover {
 
 
 }
+.infoprojectICON{
+    color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+    
+    max-height: 20px;
+    max-width: 20px;
+}
+.infoprojectICON:hover{
+    color: rgb(0, 238, 255);
+}
+.infoprojectICON:hover .infoprojectICONHIDDEN {
+    visibility: visible;
+    color: #FFFFFF;
+    font-size: 20px;
+    width: 80px;
+    display: flow;
+    z-index: 3;
+}
+.infoprojectICON:hover::after{ 
+    border-radius: 3px;
+    position: absolute;
+    bottom: 30px;
+    left: -35px;
+    content: '';
+    width: 90px;
+    display: flex;
+    height:60px;
+    background-color: rgba(1, 75, 80, 0.719);;
+}
+.infoprojectICONHIDDEN{
+    visibility: hidden;
+    position: relative;
+    top: -80px;
+    left: -30px;
+    justify-content: center;
+    max-width: 90px;
+    margin: 0;
+}
+.infoprojectICONHIDDEN svg{
+    
+}
+
+/*SOON*/
+.inprocess{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 10px;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 80px;
+    height: 25px;
+    background-color: #636363be;
+
+}
 
 
 @media(max-width: 767px) {
@@ -201,7 +260,7 @@ a.redirectproject:hover {
     }
     .projetsch1 {
         margin-bottom: 0.3vh;
-
+        font-size: 40px;
     }
     
 
@@ -221,7 +280,8 @@ a.redirectproject:hover {
         overflow: scroll;
         width: 90%;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-auto-flow: column;
+        grid-auto-columns:1fr;
         gap: 20px;
         padding-block: 5%;
         margin-top: 4vh;
@@ -234,13 +294,6 @@ a.redirectproject:hover {
 }
 
 @media (max-width:1300px) {
-    .projets {
-        overflow-y: hidden;
-        max-width: 90%;
-    }
-  
-}
-@media (max-width:1000px) {
     .projets {
         overflow-y: hidden;
         max-width: 90%;

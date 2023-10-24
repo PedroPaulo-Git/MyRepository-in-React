@@ -97,7 +97,7 @@
         overflow-x: hidden;
        }
        .h1homeall{
-        width:60%;
+        width: 60%;
        }
         .homeall{
             display: block;
@@ -185,13 +185,22 @@
 
 }
 @media(max-width: 500px) {
+    .h1homeall{
+        width: 80%;
+        font-size: 35px;
+       }
+       .phome{
+        position: relative;
+        max-width: 60%;
+        font-size: 12px;
+    }
     .frontendH1::after{
         background-color: rgb(0, 43, 56);
         content: '';
         border-left: none !important; 
         animation:
-        typingFront 6s;
-        height: 40% !important;
+        typingFront 7s;
+        height: 50% !important;
         width:0%;
     }
     .DevH1::after{
@@ -199,13 +208,64 @@
         content: ''; 
         border-left: 4px solid rgb(0, 238, 255);
         animation:
-        typing 6s steps(22),
+        typing 4s steps(20),
         cursor 0.6s step-end infinite alternate;
-        height: 18% !important;
-        width:0%;
+        height: 30% !important;
+        
     
     }
-    @keyframes typing{
+    .frontendH1{
+        font-size: 40px !important;
+    }
+    .DevH1{
+        font-size: 40px !important;
+    }
+      
+@keyframes typing{
+    100%{
+        left: 80%;    
+        width: 50%;
+    }
+    65%{
+        
+    }
+    55%{
+    }
+    51%{
+        left: 0px;
+        right: 0;
+        top: 65%;
+    }
+    50%{
+        left: 100%;
+        width: 50%;
+        top: 30%;
+    }
+    0%{
+        left: 0;
+        top: 30%;
+        width: 150%;
+        
+    }
+}
+@keyframes typingFront{
+    100%{
+        
+        width: 100%;
+        
+        
+    }
+    50%{
+        border-left: rgb(0, 43, 56);
+  }
+    0%{
+        border-left: rgb(0, 43, 56);
+        left: 0;
+        width: 100%;
+        
+    }
+}
+    /* @keyframes typing{
         100%{
             left: 50%;  
             width: 50%;
@@ -267,7 +327,7 @@
             left: 0;
             width: 100%;    
         }
-    }
+    } */
 }
 
 /*@media(max-width: 767px) {

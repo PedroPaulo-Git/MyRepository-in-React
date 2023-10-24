@@ -105,7 +105,7 @@ h5{
         margin-top: 1%;
         width: 50px;
         position: absolute;
-        height: 2px;
+        height: 4px;
         background-color:rgb(0, 238, 255);
     }
     h1.h1skill:hover + .skillset_style {
@@ -113,7 +113,7 @@ h5{
        width: 100px;
     }
     h1.h1skill{
-        font-size: 50px;
+        font-size: 40px;
         display: flex;
         color: rgb(0, 238, 255);
         margin: 0;
@@ -187,16 +187,19 @@ h5{
         margin-top: 5%;
         display: grid;
         grid-template-columns: repeat(2,150px);
-        margin-right: 10px;
-        column-gap:40px;
+        margin-right: 0px;
+        column-gap:10px;
         row-gap: 10px;
     }
     .containerskill{
        
-        height: 160px;
-        width: 160px;
+        height: 140px;
+        width: 140px;
         padding: 5%;
         
         
+    }
+    .imgskill{
+        margin-top: 0px;
     }
 }
