@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/MyRepository-in-React/static/css/main.64ff4bb6.css",
-    "main.js": "/MyRepository-in-React/static/js/main.07653db4.js",
-    "static/js/787.b93dda1e.chunk.js": "/MyRepository-in-React/static/js/787.b93dda1e.chunk.js",
+    "main.css": "/MyRepository-in-React/static/css/main.61a78d46.css",
+    "main.js": "/MyRepository-in-React/static/js/main.7ace3691.js",
+    "static/js/787.efadb022.chunk.js": "/MyRepository-in-React/static/js/787.efadb022.chunk.js",
     "static/media/Pokedex.png": "/MyRepository-in-React/static/media/Pokedex.a6d11cd772b2f2802b20.png",
     "static/media/siteShopping.png": "/MyRepository-in-React/static/media/siteShopping.ec610745478241f6b23c.png",
+    "static/media/claythonpy.png": "/MyRepository-in-React/static/media/claythonpy.9a11de4db3358cf2b2a2.png",
     "static/media/SiteMoviesRatingFIRST.png": "/MyRepository-in-React/static/media/SiteMoviesRatingFIRST.ba8fb7cbd0d5ebbb7751.png",
     "static/media/MarioBros.png": "/MyRepository-in-React/static/media/MarioBros.098029188c3e924fb777.png",
     "static/media/Raleway-VariableFont_wght.ttf": "/MyRepository-in-React/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
+    "static/media/tasks.png": "/MyRepository-in-React/static/media/tasks.d1bb6c7edfe9c95f5fb5.png",
     "static/media/ICONE.png": "/MyRepository-in-React/static/media/ICONE.60c03137368130a4b5e3.png",
     "index.html": "/MyRepository-in-React/index.html",
-    "main.64ff4bb6.css.map": "/MyRepository-in-React/static/css/main.64ff4bb6.css.map",
-    "main.07653db4.js.map": "/MyRepository-in-React/static/js/main.07653db4.js.map",
-    "787.b93dda1e.chunk.js.map": "/MyRepository-in-React/static/js/787.b93dda1e.chunk.js.map"
+    "main.61a78d46.css.map": "/MyRepository-in-React/static/css/main.61a78d46.css.map",
+    "main.7ace3691.js.map": "/MyRepository-in-React/static/js/main.7ace3691.js.map",
+    "787.efadb022.chunk.js.map": "/MyRepository-in-React/static/js/787.efadb022.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64ff4bb6.css",
-    "static/js/main.07653db4.js"
+    "static/css/main.61a78d46.css",
+    "static/js/main.7ace3691.js"
   ]
 }
