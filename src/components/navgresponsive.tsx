@@ -27,12 +27,7 @@ function Navgres(){
             </img>
             <div style={{display:showmenu ? 'flex': 'none'}} className={style.menulist}>
             <ul>
-                <li><Link
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-              to="/">Home</Link></li>
+                
                 <li><Link
               spy={true}
               smooth={true}
