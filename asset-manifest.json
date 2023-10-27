@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MyRepository-in-React/static/css/main.61a78d46.css",
-    "main.js": "/MyRepository-in-React/static/js/main.7ace3691.js",
+    "main.css": "/MyRepository-in-React/static/css/main.6b013d76.css",
+    "main.js": "/MyRepository-in-React/static/js/main.2fbd2929.js",
     "static/js/787.efadb022.chunk.js": "/MyRepository-in-React/static/js/787.efadb022.chunk.js",
     "static/media/Pokedex.png": "/MyRepository-in-React/static/media/Pokedex.a6d11cd772b2f2802b20.png",
     "static/media/siteShopping.png": "/MyRepository-in-React/static/media/siteShopping.ec610745478241f6b23c.png",
@@ -12,12 +12,12 @@
     "static/media/tasks.png": "/MyRepository-in-React/static/media/tasks.d1bb6c7edfe9c95f5fb5.png",
     "static/media/ICONE.png": "/MyRepository-in-React/static/media/ICONE.60c03137368130a4b5e3.png",
     "index.html": "/MyRepository-in-React/index.html",
-    "main.61a78d46.css.map": "/MyRepository-in-React/static/css/main.61a78d46.css.map",
-    "main.7ace3691.js.map": "/MyRepository-in-React/static/js/main.7ace3691.js.map",
+    "main.6b013d76.css.map": "/MyRepository-in-React/static/css/main.6b013d76.css.map",
+    "main.2fbd2929.js.map": "/MyRepository-in-React/static/js/main.2fbd2929.js.map",
     "787.efadb022.chunk.js.map": "/MyRepository-in-React/static/js/787.efadb022.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.61a78d46.css",
-    "static/js/main.7ace3691.js"
+    "static/css/main.6b013d76.css",
+    "static/js/main.2fbd2929.js"
   ]
 }
