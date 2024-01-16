@@ -45,13 +45,16 @@
     100%{
         left: 50%;
         margin: 0 0px 0 0px;
-        width: 50%;
+        width: 0%;
         
+    }
+    50%{
+        width: 50%;
     }
     
     0%{
         left: 0;
-        width: 100%;
+        width: 70%;
         
     }
 }

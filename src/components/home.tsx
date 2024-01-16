@@ -5,7 +5,7 @@ import Social from "./social";
 
 function Home() {
     return(
-        <div>
+        <div  id="home">
             <main className={styles.homeall}>
              
             <h1 className={styles.h1homeall} >Olá, eu sou um <br></br><span style={{fontSize:50,width:'20%'}} className={styles.DevH1}>Desenvolvedor <span className={styles.frontendH1} style={{fontSize:50,width:'20%'}}>Front-end</span></span></h1>

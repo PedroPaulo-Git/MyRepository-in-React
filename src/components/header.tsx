@@ -3,6 +3,7 @@ import { Link } from 'react-scroll';
 import '../styles/navg.css';
 import '../styles/header.css';
 import Logo from '../imgs/ICONE.png';
+import { FaAngleUp } from "react-icons/fa6";
 
 const Header = () => {
 
@@ -21,15 +22,16 @@ const Header = () => {
           <img src={Logo} alt="Logo" className='logo' />
           <h1 className='logoname1'>Port</h1>
           <h1 className='logoname'>Pedro</h1>
+
           <div id='navegationheader'>
 
             <Link
-              to="/"
+              to="home"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-150}
               duration={500}
-              className={`link_nav  ${isHomeLinkHovered ? 'link_nav active' : ''}`}
+              className={`${isHomeLinkHovered ? 'link_nav ' : ''}`}
               onMouseEnter={() => {
 
                 setIsHomeLinkHovered(true);
@@ -43,23 +45,7 @@ const Header = () => {
             >
               <span className='headerNav '>Home</span>
             </Link>
-            <Link
-              spy={true}
-              smooth={true}
-              offset={0}
-              duration={500}
-              to="skills"
-              className={`link_nav ${isSkillsLinkHovered ? 'link_nav active' : ''}`}
-              onMouseEnter={() => {
-                setIsHomeLinkHovered(false);
-                setIsProjectLinkHovered(false);  
-                setIsSkillsLinkHovered(true);
-                setIsContactLinkHovered(false)
-              }}
-              onMouseLeave={() => setIsSkillsLinkHovered(true)}
-            >
-              <span className='headerNav'>Skills</span>
-            </Link>
+      
             <Link
               spy={true}
               smooth={true}
@@ -78,6 +64,22 @@ const Header = () => {
               onMouseLeave={() => setIsProjectLinkHovered(true)}
             >
               <span className='headerNav'>Projetos</span>
+            </Link>      <Link
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={1000}
+              to="skills"
+              className={`link_nav ${isSkillsLinkHovered ? 'link_nav active' : ''}`}
+              onMouseEnter={() => {
+                setIsHomeLinkHovered(false);
+                setIsProjectLinkHovered(false);  
+                setIsSkillsLinkHovered(true);
+                setIsContactLinkHovered(false)
+              }}
+              onMouseLeave={() => setIsSkillsLinkHovered(true)}
+            >
+              <span className='headerNav'>Skills</span>
             </Link>
             <Link
               spy={true}
@@ -98,8 +100,21 @@ const Header = () => {
             >
               <span className='headerNav'>Contato</span>
             </Link>
-           
-          </div>
+              
+          
+
+          </div> 
+           <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-150}
+              duration={500}
+              className={`link_nav_back  ${isHomeLinkHovered ? '' : ''}`}
+             
+            >
+              <span className='headerNav_back'><FaAngleUp/></span>
+            </Link>
         </main>
       </header>
     </div>

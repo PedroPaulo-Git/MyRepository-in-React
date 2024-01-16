@@ -35,7 +35,7 @@ function Contact(){
            
         </main> 
         
-         <span className={style.spann}>(81) 98152-3701
+         <span className={style.spann}>(81) 99904-9803
          <img className={style.wpp} src={Iconwpp} style={{width:20,marginLeft:10}}/>
        </span>
         </div>
