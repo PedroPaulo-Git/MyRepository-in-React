@@ -29,8 +29,7 @@ form{
     height: 40px;
 }
 .inputcontact::placeholder{
-    padding-left: 10px;
-    font-size: 15px;
+ font-size: 15px;
     font-weight:700;
     color: rgb(0, 55, 58);
     
@@ -41,15 +40,13 @@ form{
  }
 .inputcontact:invalid{
     padding-left: 20px;
-    color: red;
     font-weight: 600;
 }
 .inputcontact:focus {
-    color:black;
+  
     outline: none;
     font-weight: 600;
 
-    margin-bottom: 30px;
 }
 .buttoncontact{
     font-weight: 800;
@@ -67,14 +64,17 @@ form{
     transition: transform 0.4s ease-in-out;
     
 }
-.spann{
-    
-    bottom: 0;
-    right: 0;
-    padding-bottom: 5px;
-    margin: 10px;
-    font-weight: 650;
-    color: white;
+.msgContato{
+    color: rgb(0, 0, 0);
+    font-weight: 580;
+    background-color: rgb(0, 255, 13);
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.msgContato span{
+    background-color: aqua;
+    width: 10px;
 }
 @media(max-width: 767px){
     img.wpp{

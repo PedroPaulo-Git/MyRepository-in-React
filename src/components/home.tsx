@@ -15,7 +15,7 @@ function Home() {
 
 
             <Social/>
-            <a style={{textDecoration:"none"}} href="https://api.whatsapp.com/send?phone=8181523701&text=Olá,%20gostaria%20de%20entrar%20em%20contato." target="_blank">
+            <a style={{textDecoration:"none"}} href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato." target="_blank">
                 <button type="submit" className={styles.homebutton}>Criar Jornada Comigo  <img src={Seguir} alt="" className={styles.seguir}/></button>
             </a>
             </main>

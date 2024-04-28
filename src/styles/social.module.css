@@ -11,6 +11,10 @@
     border-top: 2px solid rgb(0, 238, 255);
     border-bottom: 2px solid rgb(0, 238, 255);
 }
+#wpp{
+    width: 26px;
+    padding-block:7px;
+}
 @media(max-width: 900px){
     .imgsocial{
     width: 30px;

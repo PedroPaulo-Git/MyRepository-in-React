@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState,useEffect} from 'react';
 import { Link } from 'react-scroll';
 import '../styles/navg.css';
 import '../styles/header.css';
@@ -12,7 +12,29 @@ const Header = () => {
   const [isSkillsLinkHovered, setIsSkillsLinkHovered] = useState(false);
   const [isContactLinkHovered, setIsContactLinkHovered] = useState(false);
   const [isProjectLinkHovered, setIsProjectLinkHovered] = useState(false);
+
+  const [backToTop,setBackToTop] = useState(false)
   const navLinksRef = useRef([]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const windowHeight = window.innerHeight;
+      const scrollY = window.scrollY;
+      const scrollHeight = document.body.scrollHeight;
+
+      if (scrollHeight - scrollY - windowHeight < 100) {
+        setBackToTop(true);
+      } else {
+        setBackToTop(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
 
   return (
@@ -29,7 +51,7 @@ const Header = () => {
               to="home"
               spy={true}
               smooth={true}
-              offset={-150}
+              offset={-220}
               duration={500}
               className={`${isHomeLinkHovered ? 'link_nav ' : ''}`}
               onMouseEnter={() => {
@@ -104,17 +126,21 @@ const Header = () => {
           
 
           </div> 
-           <Link
-              to="home"
-              spy={true}
-              smooth={true}
-              offset={-150}
-              duration={500}
-              className={`link_nav_back  ${isHomeLinkHovered ? '' : ''}`}
-             
-            >
-              <span className='headerNav_back'><FaAngleUp/></span>
-            </Link>
+          
+          {backToTop && (
+        <Link
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-220}
+          duration={500}
+          className="link_nav_back"
+        >
+          <span className="headerNav_back">
+            <FaAngleUp />
+          </span>
+        </Link>
+      )}
         </main>
       </header>
     </div>

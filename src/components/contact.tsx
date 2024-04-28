@@ -1,11 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import { useRef } from 'react';
 import style from '../styles/contact.module.css';
-import Iconwpp from '../imgs/iconwhatsapp.png';
 import emailjs from '@emailjs/browser';
 
 function Contact(){
-    const form:any= useRef();;
+    const form:any= useRef();
+    const [msg,setMsg]=useState('')
+    const [formData, setFormData] = useState({
+      user_name: '',
+      user_email: '',
+      message: ''
+  });
+
+  const handleChange = (e:any) => {
+      const { name, value } = e.target;
+      setFormData((prevData) => ({
+          ...prevData,
+          [name]: value
+      }));
+  };
 
   const sendEmail = (e:any) => {
     e.preventDefault();
@@ -15,9 +28,20 @@ function Contact(){
       .then((result) => {
         console.log('mensagem enviada')
           console.log(result.text);
+          setMsg('Mensagem enviada !')
+          setFormData({
+            user_name: '',
+            user_email: '',
+            message: ''
+        });
       }, (error) => {
           console.log(error.text);
+          setMsg('Mensagem não enviada !')
+       
       });
+      setTimeout(() => {
+        setMsg(''); // Clear the message after 3000 milliseconds (3 seconds)
+    }, 5000);
     }
    
 
@@ -25,19 +49,17 @@ function Contact(){
         <div id="contact">
             
             <main className={style.containerContact} >
-            <form ref={form} onSubmit={sendEmail}>
-            <h1 className={style.h1contact}>Conecte-se comigo</h1>
-            <input className={style.inputcontact} type="text" name="user_name" placeholder="Nome"  />
-            <input className={style.inputcontact} type="email" name="user_email" id="" placeholder="Email" />
-            <input className={style.inputcontact} type="text" name="message" id="" placeholder="Mensagem" />
-            <input className={style.buttoncontact}type="submit" value="Conectar-se" />
+          <form ref={form} onSubmit={sendEmail}>
+            <h1 className={style.h1contact}>Entre em contato</h1>
+            <input className={style.inputcontact} onChange={handleChange} type="text"  value={formData.user_name}  name="user_name" placeholder="Nome"  />
+            <input className={style.inputcontact} onChange={handleChange}  type="email"  value={formData.user_email} name="user_email" id="" placeholder="Email" />
+            <input className={style.inputcontact} onChange={handleChange}  type="text"  value={formData.message} name="message" id="" placeholder="Mensagem" />
+            <input className={style.buttoncontact} onChange={handleChange} type="submit" value="Enviar" />
           </form>
-           
+          {msg && <div className={style.msgContato}><span></span>{msg}</div>}
+          
         </main> 
-        
-         <span className={style.spann}>(81) 99904-9803
-         <img className={style.wpp} src={Iconwpp} style={{width:20,marginLeft:10}}/>
-       </span>
+      
         </div>
     )
 }

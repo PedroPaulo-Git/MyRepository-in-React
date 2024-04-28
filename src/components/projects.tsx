@@ -155,7 +155,7 @@ function Projects() {
 
 
                         <div className={styles.containerProject1}>
-                            <a href="https://pedropaulo-git.github.io/TaskApp/"><img className={styles.imgprojet1content} src={projeto5} alt="TaskApp" /><span className={styles.inprocess}>em processo</span></a>
+                            <a href="https://pedropaulo-git.github.io/TaskApp/"><img className={styles.imgprojet1content} src={projeto5} alt="TaskApp" /></a>
                             <div className={styles.projectinfo}>
                                 <h1 className={styles.h1infoproject}>Desenvolvimento de TaskApp</h1>
                                 <h1 className={styles.h1project}>TaskApp API</h1>
