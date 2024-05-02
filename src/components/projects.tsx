@@ -5,7 +5,8 @@ import projeto2 from '../imgs/SiteMoviesRatingFIRST.png';
 import projeto3 from '../imgs/Pokedex.png';
 import projeto4 from '../imgs/MarioBros.png';
 import projeto5 from '../imgs/tasks.png';
-import projeto6 from '../imgs/claythonpy.png'
+import projeto6 from '../imgs/claythonpy.png';
+import projeto7 from '../imgs/SiteIdealRestaurante.jpg';
 import Git from '../imgs/icongithub.png'
 import {LuBrainCircuit} from 'react-icons/lu'
 import { AiOutlineArrowRight,
@@ -33,6 +34,36 @@ function Projects() {
                     <span className={styles.skillset_style}></span>
                 </div>
                 <div className={styles.projets}>
+                <div className={styles.projet1}>
+
+
+<div className={styles.containerProject1}>
+
+    <a href="https://github.com/PedroPaulo-Git/"><img style={{ zIndex: 1 }} className={styles.imgprojet1content} src={projeto7} alt="restauramte_site" /></a>
+    <div className={styles.projectinfo}>
+        <h1 className={styles.h1infoproject}>Site de Restaurante </h1>
+        <h1 className={styles.h1project}>Site de Restaurante</h1>
+        <p className={styles.paragrafoproject}
+        >Site de um restaurante utilizando React junto de Routers e typescript</p>
+        <div className={styles.projectLinks}>
+            <a className={styles.redirectproject} href="https://github.com/PedroPaulo-Git/"><p className={styles.paragraforedirectproject}>Ver Projeto </p> <AiOutlineArrowRight /></a>
+            <span className={styles.infoprojectICON}>
+                <BsInfoCircle/>
+                <p className={styles.infoprojectICONHIDDEN}>
+                <BiLogoTypescript/>
+                <BiLogoReact/>
+                <BiLogoHtml5/>
+                <BiLogoCss3/>
+                </p>
+                
+            </span><a href="https://github.com/PedroPaulo-Git/"> <img alt="restauramte_site" style={{ width: '20px', height: "20px" }} src={Git} /></a>
+        </div>
+    </div>
+</div>
+
+
+
+</div>
                     <div className={styles.projet1}>
 
 
@@ -54,7 +85,7 @@ function Projects() {
                                         <BiLogoCss3/>
                                         </p>
                                         
-                                    </span><a href="https://github.com/PedroPaulo-Git/Shopping_app"> <img style={{ width: '20px', height: "20px" }} src={Git} /></a>
+                                    </span><a href="https://github.com/PedroPaulo-Git/Shopping_app"> <img alt='' style={{ width: '20px', height: "20px" }} src={Git} /></a>
                                 </div>
                             </div>
                         </div>
@@ -83,7 +114,7 @@ function Projects() {
                                         <BiLogoCss3/>
                                         </p>
                                         
-                                    </span> <a href="https://github.com/PedroPaulo-Git/MarioBrosGame"> <img style={{ width: '20px', height: "20px" }} src={Git} /></a>
+                                    </span> <a href="https://github.com/PedroPaulo-Git/MarioBrosGame"> <img alt=''  style={{ width: '20px', height: "20px" }} src={Git} /></a>
                                 </div>
                             </div>
                         </div>
@@ -97,7 +128,7 @@ function Projects() {
 
                         <div className={styles.containerProject1}>
 
-                            <a href="https://pedropaulo-git.github.io/MoviesRating/"><img className={styles.imgprojet1content} src={projeto2} alt="MoviesRating" /></a>
+                            <a href="https://pedropaulo-git.github.io/MoviesRating/"><img style={{ zIndex: 1 }}  className={styles.imgprojet1content} src={projeto2} alt="MoviesRating" /></a>
                             <div className={styles.projectinfo}>
                                 <h1 className={styles.h1infoproject}>Desenvolvimento de Movie API</h1>
                                 <h1 className={styles.h1project}>Movies Ratting API</h1>
@@ -113,7 +144,7 @@ function Projects() {
                                         <AiFillApi/>
                                         </p>
                                         
-                                    </span>  <a href="https://github.com/PedroPaulo-Git/MoviesRating"><img style={{ width: '20px', height: "20px" }} src={Git} /></a>
+                                    </span>  <a href="https://github.com/PedroPaulo-Git/MoviesRating"><img alt=''  style={{ width: '20px', height: "20px" }} src={Git} /></a>
                                 </div>
                             </div>
                         </div>
@@ -125,7 +156,7 @@ function Projects() {
 
 
                         <div className={styles.containerProject1}>
-                            <a href="https://pedropaulo-git.github.io/Pokedex/"><img className={styles.imgprojet1content} src={projeto3} alt="Pokedex" /></a>
+                            <a href="https://pedropaulo-git.github.io/Pokedex/"><img  style={{ zIndex: 1 }}  className={styles.imgprojet1content} src={projeto3} alt="Pokedex" /></a>
                             <div className={styles.projectinfo}>
                                 <h1 className={styles.h1infoproject}>Desenvolvimento de Pokedex API</h1>
                                 <h1 className={styles.h1project}>Pokedex API</h1>
@@ -143,7 +174,7 @@ function Projects() {
                                         <BiLogoCss3/>
                                         </p>
                                         
-                                    </span><a href="https://github.com/PedroPaulo-Git/Pokedex"><img style={{ width: '20px', height: "20px" }} src={Git} /></a>
+                                    </span><a href="https://github.com/PedroPaulo-Git/Pokedex"><img alt=''  style={{ width: '20px', height: "20px" }} src={Git} /></a>
                                 </div>
                             </div>
                         </div>
@@ -155,7 +186,7 @@ function Projects() {
 
 
                         <div className={styles.containerProject1}>
-                            <a href="https://pedropaulo-git.github.io/TaskApp/"><img className={styles.imgprojet1content} src={projeto5} alt="TaskApp" /></a>
+                            <a href="https://pedropaulo-git.github.io/TaskApp/"><img style={{ zIndex: 1 }}  className={styles.imgprojet1content} src={projeto5} alt="TaskApp" /></a>
                             <div className={styles.projectinfo}>
                                 <h1 className={styles.h1infoproject}>Desenvolvimento de TaskApp</h1>
                                 <h1 className={styles.h1project}>TaskApp API</h1>
@@ -172,7 +203,7 @@ function Projects() {
                                         
                                         </p>
                                         
-                                    </span><a href="https://github.com/PedroPaulo-Git/TaskApp"><img style={{ width: '20px', height: "20px" }} src={Git} /></a>
+                                    </span><a href="https://github.com/PedroPaulo-Git/TaskApp"><img alt=''  style={{ width: '20px', height: "20px" }} src={Git} /></a>
                                 </div>
                             </div>
                         </div>
@@ -184,7 +215,7 @@ function Projects() {
 
 
                         <div className={styles.containerProject1}>
-                            <a href="https://github.com/PedroPaulo-Git/IA_Clayton"><img className={styles.imgprojet1content} src={projeto6} alt="IAClayton" /><span className={styles.inprocess}>em processo</span></a>
+                            <a href="https://github.com/PedroPaulo-Git/IA_Clayton"><img style={{ zIndex: 1 }}  className={styles.imgprojet1content} src={projeto6} alt="IAClayton" /><span className={styles.inprocess}>em processo</span></a>
                             <div className={styles.projectinfo}>
                                 <h1 className={styles.h1infoproject}>Desenvolvimento de IA</h1>
                                 <h1 className={styles.h1project}>IA para aprender inglês</h1>
@@ -200,7 +231,7 @@ function Projects() {
                                         
                                         </p>
                                         
-                                    </span><a href="https://github.com/PedroPaulo-Git/IA_Clayton"><img style={{ width: '20px', height: "20px" }} src={Git} /></a>
+                                    </span><a href="https://github.com/PedroPaulo-Git/IA_Clayton"><img alt=''  style={{ width: '20px', height: "20px" }} src={Git} /></a>
                                 </div>
                             </div>
                         </div>

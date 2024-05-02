@@ -13,6 +13,7 @@
 }
 #wpp{
     width: 26px;
+    height: 26px;
     padding-block:7px;
 }
 @media(max-width: 900px){
