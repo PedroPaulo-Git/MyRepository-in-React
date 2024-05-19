@@ -1,4 +1,4 @@
-import React, { useRef, useState,useEffect} from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import '../styles/navg.css';
 import '../styles/header.css';
@@ -13,7 +13,7 @@ const Header = () => {
   const [isContactLinkHovered, setIsContactLinkHovered] = useState(false);
   const [isProjectLinkHovered, setIsProjectLinkHovered] = useState(false);
 
-  const [backToTop,setBackToTop] = useState(false)
+  const [backToTop, setBackToTop] = useState(false)
   const navLinksRef = useRef([]);
 
   useEffect(() => {
@@ -57,7 +57,7 @@ const Header = () => {
               onMouseEnter={() => {
 
                 setIsHomeLinkHovered(true);
-                setIsProjectLinkHovered(false);  
+                setIsProjectLinkHovered(false);
                 setIsSkillsLinkHovered(false);
                 setIsContactLinkHovered(false);
               }
@@ -67,7 +67,7 @@ const Header = () => {
             >
               <span className='headerNav '>Home</span>
             </Link>
-      
+
             <Link
               spy={true}
               smooth={true}
@@ -77,10 +77,10 @@ const Header = () => {
               className={`link_nav ${isProjectLinkHovered ? 'link_nav active' : ''}`}
               onMouseEnter={() => {
                 setIsProjectLinkHovered(true);
-                setIsContactLinkHovered(false);  
+                setIsContactLinkHovered(false);
                 setIsSkillsLinkHovered(false);
                 setIsHomeLinkHovered(false);
-             
+
               }
               }
               onMouseLeave={() => setIsProjectLinkHovered(true)}
@@ -95,7 +95,7 @@ const Header = () => {
               className={`link_nav ${isSkillsLinkHovered ? 'link_nav active' : ''}`}
               onMouseEnter={() => {
                 setIsHomeLinkHovered(false);
-                setIsProjectLinkHovered(false);  
+                setIsProjectLinkHovered(false);
                 setIsSkillsLinkHovered(true);
                 setIsContactLinkHovered(false)
               }}
@@ -112,35 +112,35 @@ const Header = () => {
               className={`link_nav ${isContactLinkHovered ? 'link_nav active' : ''}`}
               onMouseEnter={() => {
                 setIsContactLinkHovered(true);
-                setIsProjectLinkHovered(false);  
+                setIsProjectLinkHovered(false);
                 setIsSkillsLinkHovered(false);
                 setIsHomeLinkHovered(false);
-             
+
               }
               }
               onMouseLeave={() => setIsContactLinkHovered(true)}
             >
               <span className='headerNav'>Contato</span>
             </Link>
-              
-          
 
-          </div> 
-          
+
+
+          </div>
+
           {backToTop && (
-        <Link
-          to="home"
-          spy={true}
-          smooth={true}
-          offset={-220}
-          duration={500}
-          className="link_nav_back"
-        >
-          <span className="headerNav_back">
-            <FaAngleUp />
-          </span>
-        </Link>
-      )}
+            <Link
+              to="home"
+              spy={true}
+              smooth={true}
+              offset={-220}
+              duration={500}
+              className="link_nav_back"
+            >
+              <span className="headerNav_back">
+                <FaAngleUp />
+              </span>
+            </Link>
+          )}
         </main>
       </header>
     </div>

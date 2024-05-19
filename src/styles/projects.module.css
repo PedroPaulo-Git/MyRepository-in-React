@@ -36,12 +36,12 @@ h1.projetsch1:hover+.skillset_style {
     display: grid;
     padding-block: 5%;
     grid-template-columns: repeat(4, 0fr);
-    gap:25px;
+    gap: 25px;
     margin-top: 2vh;
 }
 
 .projet1 {
-    
+
     transition: 1s;
     position: relative;
     background-color: rgb(0, 116, 124);
@@ -61,10 +61,11 @@ h1.projetsch1:hover+.skillset_style {
 
 
 .projet1:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 
 }
-.projet1::before{
+
+.projet1::before {
 
     content: '';
     transition: 0.8s ease-in-out;
@@ -76,7 +77,8 @@ h1.projetsch1:hover+.skillset_style {
     border-top: 3px solid transparent;
     border-right: 3px solid transparent;
 }
-.projet1::after{
+
+.projet1::after {
     content: '';
     width: 0px;
     transition: 0.8s ease-in-out;
@@ -87,17 +89,19 @@ h1.projetsch1:hover+.skillset_style {
     border-bottom: 3px solid transparent;
     border-left: 3px solid transparent;
 }
+
 .projet1:hover::after {
     width: 100%;
     height: 100%;
-    border-bottom:1px solid #00ffff;
+    border-bottom: 1px solid #00ffff;
     border-left: 1px solid #00ffff;
- }
+}
+
 .projet1:hover::before {
-   width: 100%;
-   height: 100%;
-   border-top:1px solid #00ffff;
-   border-right: 1px solid #00ffff;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #00ffff;
+    border-right: 1px solid #00ffff;
 }
 
 
@@ -106,9 +110,11 @@ h1.projetsch1:hover+.skillset_style {
     position: relative;
     cursor: pointer;
 }
-.imgLink{
+
+.imgLink {
     z-index: 1;
 }
+
 .projectinfo {
     display: flex;
     flex-direction: column;
@@ -183,17 +189,20 @@ a.redirectproject:hover {
 
 
 }
-.infoprojectICON{
+
+.infoprojectICON {
     color: #FFFFFF;
     cursor: pointer;
     position: relative;
-    
+
     max-height: 20px;
     max-width: 20px;
 }
-.infoprojectICON:hover{
+
+.infoprojectICON:hover {
     color: rgb(0, 238, 255);
 }
+
 .infoprojectICON:hover .infoprojectICONHIDDEN {
     visibility: visible;
     color: #FFFFFF;
@@ -202,7 +211,8 @@ a.redirectproject:hover {
     display: flow;
     z-index: 3;
 }
-.infoprojectICON:hover::after{ 
+
+.infoprojectICON:hover::after {
     border-radius: 3px;
     position: absolute;
     bottom: 30px;
@@ -210,10 +220,12 @@ a.redirectproject:hover {
     content: '';
     width: 90px;
     display: flex;
-    height:60px;
-    background-color: rgba(1, 75, 80, 0.719);;
+    height: 60px;
+    background-color: rgba(1, 75, 80, 0.719);
+    ;
 }
-.infoprojectICONHIDDEN{
+
+.infoprojectICONHIDDEN {
     visibility: hidden;
     position: relative;
     top: -80px;
@@ -222,12 +234,10 @@ a.redirectproject:hover {
     max-width: 90px;
     margin: 0;
 }
-.infoprojectICONHIDDEN svg{
-    
-}
+
 
 /*SOON*/
-.inprocess{
+.inprocess {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 10px;
@@ -246,25 +256,28 @@ a.redirectproject:hover {
 
 
 @media(max-width: 767px) {
-    body{
+    body {
         overflow-x: hidden;
         max-width: 100%;
         box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
-    .paragrafoproject{
+
+    .paragrafoproject {
         height: 100%;
         margin: 0;
     }
-    h1.h1infoproject{
+
+    h1.h1infoproject {
         width: 100%;
     }
+
     .projetsch1 {
         margin-bottom: 0.3vh;
         font-size: 40px;
     }
-    
+
 
     .projets_content {
         padding: 8px;
@@ -283,7 +296,7 @@ a.redirectproject:hover {
         width: 90%;
         display: grid;
         grid-auto-flow: column;
-        grid-auto-columns:1fr;
+        grid-auto-columns: 1fr;
         gap: 20px;
         padding-block: 5%;
         margin-top: 4vh;
@@ -300,5 +313,5 @@ a.redirectproject:hover {
         overflow-y: hidden;
         max-width: 90%;
     }
-  
+
 }

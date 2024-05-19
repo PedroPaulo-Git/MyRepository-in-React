@@ -1,89 +1,97 @@
-
-body{
+body {
     width: 100%;
     background-color: rgb(0, 43, 56);
 }
 
-.header{
-    
-    position:absolute;
+.header {
+
+    position: absolute;
     top: 0;
-    width:100%;
-    height:80px;
-    background-color:rgb(0, 30, 39);
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 30, 39);
     text-align: center;
     flex-direction: row;
     display: flex;
-   
+
 }
 
-.mainheader{
+.mainheader {
     margin-left: 80px;
 }
-main{
+
+main {
     padding: 0px !important;
     margin-left: 130px;
     display: flex;
     justify-content: space-between;
-   
+
 }
-.logo{
-    height:80px;
+
+.logo {
+    height: 80px;
     position: relative;
-    transition: all 0.8s; 
+    transition: all 0.8s;
     -webkit-user-drag: none;
 }
-.logo:hover{
+
+.logo:hover {
     transform: translateY(-5px);
 }
-h1.logoname{
+
+h1.logoname {
     font-family: sans-serif;
     margin-top: 28px;
     font-weight: 400;
     font-size: 24px;
     color: rgb(255, 255, 255);
 }
-h1.logoname1{
+
+h1.logoname1 {
     font-family: sans-serif;
     margin-top: 28px;
-    font-weight:400;
+    font-weight: 400;
     font-size: 24px;
     color: rgb(0, 238, 255);
 }
 
 @media(max-width: 900px) {
-    .header{
+    .header {
         width: 100%;
     }
-    h1.logoname1{
+
+    h1.logoname1 {
         font-size: 22px;
         font-weight: 500;
-        font-family: "Raleway",sans-serif;
-       
-        
+        font-family: "Raleway", sans-serif;
+
+
     }
-    h1.logoname{
+
+    h1.logoname {
         font-size: 22px;
         font-weight: 500;
-        font-family: "Raleway",sans-serif;
-        
+        font-family: "Raleway", sans-serif;
+
     }
-   
-    .mainheader{
-      padding: 0;
-      margin-left: 20px;
+
+    .mainheader {
+        padding: 0;
+        margin-left: 20px;
     }
-    .logo{
+
+    .logo {
         height: 70px;
         width: 70px;
         margin-top: 5px;
     }
-    .maincontainerskill{
+
+    .maincontainerskill {
         margin-top: 5%;
         display: grid;
-        grid-template-columns: repeat(3,100px);
-        column-gap:5px;
+        grid-template-columns: repeat(3, 100px);
+        column-gap: 5px;
         row-gap: 10px;
     }
-   
+
 }

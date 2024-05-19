@@ -12,21 +12,21 @@ import Css from '../src/styles/App.module.css'
 
 
 const App: React.FC = () => {
-   
-    <Css/>
-   
-    return (
 
-      <div> 
-    
-          <Navgres />
-          <Header />
-          <Home />
-          <Projects/>
-          <Skillsets />
-          <Contact />
-      </div>
+  <Css />
 
-    );
-  };
-  export default App;
+  return (
+
+    <div>
+
+      <Navgres />
+      <Header />
+      <Home />
+      <Projects />
+      <Skillsets />
+      <Contact />
+    </div>
+
+  );
+};
+export default App;

@@ -17,9 +17,6 @@ import Imgts from '../imgs/iconts.png';
 
 function Skillsets() {
     return (
-
-
-
         <div id='skills'>
             <main className={styles.skillall}>
                 <h3>Competências</h3>
@@ -84,14 +81,9 @@ function Skillsets() {
                             Sempre tentando usar as melhores tecnologias e sempre me profissionalizando em algo novo,consigo usar
                             ferramentas para sempre fazer sites Responsivos.
                         </p>
-
-
-
                     </div>
 
                 </div>
-
-
             </main>
         </div>
     )

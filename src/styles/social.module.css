@@ -1,24 +1,27 @@
-.social{
-    justify-content:flex-start;
+.social {
+    justify-content: flex-start;
     margin-left: 0;
     margin-top: 50px;
 }
-.imgsocial{
+
+.imgsocial {
     display: flex;
-    padding-inline:5px ;
+    padding-inline: 5px;
     padding-block: 5px;
     width: 30px;
     border-top: 2px solid rgb(0, 238, 255);
     border-bottom: 2px solid rgb(0, 238, 255);
 }
-#wpp{
+
+#wpp {
     width: 26px;
     height: 26px;
-    padding-block:7px;
+    padding-block: 7px;
 }
-@media(max-width: 900px){
-    .imgsocial{
-    width: 30px;
-    height: 30px;
+
+@media(max-width: 900px) {
+    .imgsocial {
+        width: 30px;
+        height: 30px;
     }
 }
