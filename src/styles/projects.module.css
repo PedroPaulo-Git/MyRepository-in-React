@@ -106,7 +106,9 @@ h1.projetsch1:hover+.skillset_style {
     position: relative;
     cursor: pointer;
 }
-
+.imgLink{
+    z-index: 1;
+}
 .projectinfo {
     display: flex;
     flex-direction: column;

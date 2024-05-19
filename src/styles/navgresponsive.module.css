@@ -10,6 +10,7 @@ img.menu{
 }
 .spanmenu{
     z-index: 2;
+  
    
 }
 .menulist{
@@ -17,7 +18,7 @@ img.menu{
 }
 @media(max-width: 900px){
     .spanmenu{
-        
+      
         position: absolute;
         right: 0;
 
@@ -31,7 +32,7 @@ img.menu{
     
     }
     .menulist{
-        transition: 1s;
+     
         display: flex;
         justify-content: space-around;
         position: absolute;
@@ -43,7 +44,7 @@ img.menu{
 
     }
     .menulist ul{
-        
+        transition:all 1s;
         cursor: pointer;
         width: 80%;
         padding-inline: 10%;
