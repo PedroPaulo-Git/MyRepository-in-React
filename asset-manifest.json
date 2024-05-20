@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MyRepository-in-React/static/css/main.6df49db1.css",
+    "main.css": "/MyRepository-in-React/static/css/main.c9a6153d.css",
     "main.js": "/MyRepository-in-React/static/js/main.c510dbba.js",
     "static/js/453.e239c3fd.chunk.js": "/MyRepository-in-React/static/js/453.e239c3fd.chunk.js",
     "static/media/siteShopping.png": "/MyRepository-in-React/static/media/siteShopping.ec610745478241f6b23c.png",
@@ -11,12 +11,12 @@
     "static/media/tasks.png": "/MyRepository-in-React/static/media/tasks.d1bb6c7edfe9c95f5fb5.png",
     "static/media/ICONE.png": "/MyRepository-in-React/static/media/ICONE.60c03137368130a4b5e3.png",
     "index.html": "/MyRepository-in-React/index.html",
-    "main.6df49db1.css.map": "/MyRepository-in-React/static/css/main.6df49db1.css.map",
+    "main.c9a6153d.css.map": "/MyRepository-in-React/static/css/main.c9a6153d.css.map",
     "main.c510dbba.js.map": "/MyRepository-in-React/static/js/main.c510dbba.js.map",
     "453.e239c3fd.chunk.js.map": "/MyRepository-in-React/static/js/453.e239c3fd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6df49db1.css",
+    "static/css/main.c9a6153d.css",
     "static/js/main.c510dbba.js"
   ]
 }
