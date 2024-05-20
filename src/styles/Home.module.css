@@ -67,7 +67,6 @@
     100% {}
 
     50% {
-
         border-color: transparent;
 
     }
@@ -113,7 +112,14 @@
     }
 
     .h1homeall {
-        width: 60%;
+        width: 80%;
+    
+    }
+
+    .phome {
+        position: relative;
+        max-width: 60%;
+        font-size: 12px;
     }
 
     .homeall {
@@ -138,62 +144,63 @@
     }
 
     .frontendH1::after {
+        background-color: rgb(153, 9, 9);
         background-color: rgb(0, 43, 56);
         content: '';
         border-left: 4px solid rgb(0, 238, 255);
         animation:
-            typingFront 7s;
-        height: 22%;
+            typingFront 6s;
+        height: 28%;
         width: 0%;
     }
 
     .DevH1::after {
-        background-color: rgb(0, 43, 56);
+        background-color: rgb(44, 250, 16);
+       background-color:  rgb(0, 43, 56); 
         content: '';
         border-left: 4px solid rgb(0, 238, 255);
         animation:
             typing 4s steps(20),
             cursor 0.6s step-end infinite alternate;
-        height: 22%;
+        height: 28%;
         width: 0%;
-
+        margin-bottom: 10%;
     }
 
     @keyframes typing {
         100% {
-            left: 100%;
-            width: 100%;
+            left: 80%;
+            width: 10%;
         }
 
         65% {}
 
         55% {}
 
-        51% {
+        41% {
             left: 0px;
             right: 0;
-            top: 75%;
+            width: 50%;
+            top: 70%
         }
 
-        50% {
-            left: 135%;
-            width: 100%;
-            top: 50%;
+        40% {
+            left: 100%;
+            width: 20%;
+            top:38%;
         }
 
         0% {
             left: 0;
-            top: 50%;
-            width: 150%;
+            top: 38%;
+            width: 80%;
 
         }
     }
 
     @keyframes typingFront {
         100% {
-
-            width: 100%;
-
+            width: 40%;
 
         }
 
@@ -204,8 +211,7 @@
         0% {
             border-left: rgb(0, 43, 56);
             left: 0;
-            width: 100%;
-
+            width: 80%;
         }
     }
 
@@ -239,7 +245,7 @@
         border-left: 4px solid rgb(0, 238, 255);
         animation:
             typing 6s steps(20),
-            cursor 0.6s step-end infinite alternate;
+            cursor 0.4s step-end infinite alternate;
         height: 30% !important;
 
 
@@ -257,41 +263,43 @@
         100% {
             left: 70%;
             width: 50%;
-
         }
 
         50.1% {
             left: 0px;
             right: 0;
             top: 65%;
+            width: 100%;
         }
 
         50% {
-            left: 100%;
-            width: 80%;
-            top: 30%;
+            left: 120%;
+            width: 20%;
+            top: 32%;
         }
-
+        20%{
+            width: 80%;
+        }
         0% {
             left: 0;
-            top: 30%;
-            width: 150%;
+            top: 32%;
+            width: 120%;
 
         }
     }
 
     @keyframes typingFront {
         100% {
-
-            width: 150%;
-
-
+            width: 40%;
         }
 
         50% {
             border-left: rgb(0, 43, 56);
+          
         }
-
+        10%{
+            width: 90%;
+        }
         0% {
             border-left: rgb(0, 43, 56);
             left: 0;
@@ -300,7 +308,7 @@
         }
     }
 }
-
+/* 
 @media (max-width:1500px) {
     .h1homeall {
         width: 55%;
@@ -334,4 +342,4 @@
     cursor 0.6s step-end infinite alternate;
 } */
 
-}
+
