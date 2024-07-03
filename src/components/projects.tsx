@@ -42,14 +42,14 @@ function Projects() {
 
                         <div className={styles.containerProject1}>
 
-                            <a className={styles.imgLink} href="https://github.com/PedroPaulo-Git/"><img style={{ zIndex: 1 }} className={styles.imgprojet1content} src={projeto7} alt="restauramte_site" /></a>
+                            <a className={styles.imgLink} href="https://ideal-restaurante-pedropaulo-git-pedropaulogits-projects.vercel.app/"><img style={{ zIndex: 1 }} className={styles.imgprojet1content} src={projeto7} alt="restauramte_site" /></a>
                             <div className={styles.projectinfo}>
                                 <h1 className={styles.h1infoproject}>Site de Restaurante </h1>
                                 <h1 className={styles.h1project}>Site de Restaurante</h1>
                                 <p className={styles.paragrafoproject}
                                 >Front end de um restaurante utilizando React junto de Routers e typescript</p>
                                 <div className={styles.projectLinks}>
-                                    <a className={styles.redirectproject} href="https://github.com/PedroPaulo-Git/"><p className={styles.paragraforedirectproject}>Ver Projeto </p> <AiOutlineArrowRight /></a>
+                                    <a className={styles.redirectproject} href="https://ideal-restaurante-pedropaulo-git-pedropaulogits-projects.vercel.app/"><p className={styles.paragraforedirectproject}>Ver Projeto </p> <AiOutlineArrowRight /></a>
                                     <span className={styles.infoprojectICON}>
                                         <BsInfoCircle />
                                         <p className={styles.infoprojectICONHIDDEN}>
